@@ -14,4 +14,11 @@ public class Milesperhour {
                     + " km/h = " + milesPerHour + " min/h");
         }
 	}
+	public static void main(String[] args)
+	{
+		double kilometersPerHour=10.25;
+		long milesPerHours=100;
+		System.out.print(kilometersPerHour +"km/h = ");
+		System.out.println(""+toMilesPerHour(kilometersPerHour));
+	}
 }
